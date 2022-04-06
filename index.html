@@ -10,8 +10,16 @@
     <h1 class="title">Words Counter</h1>
     <form>
         <textarea class="textarea" placeholder="Paste your text"></textarea>
-        <button class="button">Сalculate</button>
+        <div class="buttons">
+            <button class="load_container">Load txt
+                <input class="load" type="file">
+            </button>
+            <button class="calculate">Сalculate</button>
+            <button class="reset">Reset</button>
+        </div>
     </form>
-    <div class="display"></div>
+    <input type="text" class="search" placeholder="Search">
+    <div class="display">
+    </div>
 </body>
 </html>

@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6717b0da-3c57-4a3c-abcf-9a20c9e7fb3b" name="Default Changelist" comment="" />
+    <list default="true" id="6717b0da-3c57-4a3c-abcf-9a20c9e7fb3b" name="Default Changelist" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,17 +73,56 @@
       <workItem from="1648670145346" duration="9081000" />
       <workItem from="1648729782102" duration="7078000" />
       <workItem from="1648758402932" duration="9006000" />
-      <workItem from="1648818132063" duration="6167000" />
+      <workItem from="1648818132063" duration="10288000" />
+      <workItem from="1648902789059" duration="3203000" />
+      <workItem from="1648982738591" duration="591000" />
+      <workItem from="1649080564264" duration="6836000" />
+      <workItem from="1649104288183" duration="6580000" />
+      <workItem from="1649122798576" duration="597000" />
+      <workItem from="1649163959287" duration="7037000" />
+      <workItem from="1649253165123" duration="13968000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1648824547301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648824547301</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="687" y="215" key="FileChooserDialogImpl" timestamp="1648655079150">
+    <state x="687" y="215" key="FileChooserDialogImpl" timestamp="1648824482078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1648655079150" />
+    <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1648824482078" />
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1648824599525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1648824599525" />
+    <state x="714" y="405" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1648824594795">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="405" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1648824594795" />
   </component>
 </project>
