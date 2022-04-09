@@ -7,19 +7,36 @@
     <title>Words Counter</title>
 </head>
 <body>
-    <h1 class="title">Words Counter</h1>
-    <form>
-        <textarea class="textarea" placeholder="Paste your text"></textarea>
-        <div class="buttons">
-            <button class="load_container">Load txt
-                <input class="load" type="file">
-            </button>
-            <button class="calculate">Сalculate</button>
-            <button class="reset">Reset</button>
+    <div class="container">
+        <h1 class="title">Words Counter</h1>
+        <form>
+            <textarea class="textarea" placeholder="Paste your text"></textarea>
+            <div class="buttons">
+                <button class="load_container">Load txt
+                    <input class="load" type="file">
+                </button>
+                <button class="reset">Reset</button>
+                <button class="calculate">Сalculate</button>
+            </div>
+        </form>
+        <div class="display"></div>
+        <div class="option">
+
+            <label class="checkbox-green">
+                <input type="checkbox" class="letter_toggle">
+                <span class="checkbox-green-switch" data-label-on="=" data-label-off=">"></span>
+            </label>
+
+            <input type="number" class="letter option_input" placeholder="Letter">
+
+            <label class="checkbox-green">
+                <input type="checkbox" class="ending_toggle">
+                <span class="checkbox-green-switch" data-label-on="excl" data-label-off="incl"></span>
+            </label>
+
+            <input type="text" class="ending option_input" placeholder="Ending">
+            <input type="text" class="search option_input" placeholder="Search">
         </div>
-    </form>
-    <input type="text" class="search" placeholder="Search">
-    <div class="display">
     </div>
 </body>
 </html>
