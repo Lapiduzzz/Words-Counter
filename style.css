@@ -98,11 +98,8 @@ textarea::placeholder{
 .buttons{
     position: absolute;
     bottom: -50px;
-    left: 100px;
-    width: 20vw;
+    left: 5vw;
     height: 100px;
-    display: flex;
-    justify-content: space-between;
     z-index: 100;
 }
 .calculate{
@@ -130,6 +127,7 @@ button{
     color: var(--color2);
     cursor: pointer;
     transition: var(--transitionColor);
+    margin: 0 30px 0 0;
 }
 button:hover{
     background: var(--color2);
@@ -186,6 +184,7 @@ button:active{
     background: var(--color1);
     color: var(--color2);
     margin: 10px 0;
+    width: calc(100% - 10px);
 }
 .option_input::placeholder{
     color: var(--color2);

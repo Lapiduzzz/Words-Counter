@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6717b0da-3c57-4a3c-abcf-9a20c9e7fb3b" name="Default Changelist" comment="search">
+    <list default="true" id="6717b0da-3c57-4a3c-abcf-9a20c9e7fb3b" name="Default Changelist" comment="filter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -86,7 +85,10 @@
       <workItem from="1649380071442" duration="702000" />
       <workItem from="1649421418739" duration="8399000" />
       <workItem from="1649454859795" duration="7484000" />
-      <workItem from="1649508279824" duration="8749000" />
+      <workItem from="1649508279824" duration="9456000" />
+      <workItem from="1649549329569" duration="1202000" />
+      <workItem from="1649595971158" duration="2373000" />
+      <workItem from="1649619788624" duration="4000000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1648824547301</created>
@@ -102,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649281120549</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="filter">
+      <created>1649519022461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649519022461</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,17 +132,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="search" />
-    <option name="LAST_COMMIT_MESSAGE" value="search" />
+    <MESSAGE value="filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="filter" />
   </component>
   <component name="WindowStateProjectService">
     <state x="687" y="215" key="FileChooserDialogImpl" timestamp="1648824482078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1648824482078" />
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1649281804510">
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1649519047307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1649281804510" />
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1649519047307" />
     <state x="714" y="405" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1648824594795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -142,5 +152,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1649512763906" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/script.js</url>
+          <line>193</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

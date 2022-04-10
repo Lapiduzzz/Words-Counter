@@ -10,7 +10,6 @@ let option = document.querySelector('.option')
 let letterToggle = document.querySelector('.letter_toggle')
 let endingToggle = document.querySelector('.ending_toggle')
 
-
 window.addEventListener('scroll', e => windowScroll(e))
 textarea.addEventListener('load', e => textarea.value = e.target.value)
 load.addEventListener('change', e => loadFile(e.target.files[0]))
@@ -21,11 +20,10 @@ reset.addEventListener('click', e => {
     counterTriger(e, 'calc')
 })
 search.addEventListener('input', e => counterTriger(e, 'search'))
-letter.addEventListener('input', e => counterTriger(e, 'lett'))
-ending.addEventListener('input', e => counterTriger(e, 'end'))
-letterToggle.addEventListener('change', e => letter.value.length > 0 && counterTriger(e, 'lett', letter.value))
-endingToggle.addEventListener('change', e => ending.value.length > 0 && counterTriger(e, 'end', ending.value))
-
+letter.addEventListener('input', e => counterTriger(e, 'filt'))
+ending.addEventListener('input', e => counterTriger(e, 'filt'))
+letterToggle.addEventListener('change', e => letter.value.length > 0 && counterTriger(e, 'filt', letter.value))
+endingToggle.addEventListener('change', e => ending.value.length > 0 && counterTriger(e, 'filt', ending.value))
 
 let totalWords = 0
 let totalUniqueWords = 0
@@ -42,12 +40,10 @@ function counterTriger(e, trigger, value) {
 
     totalWords = 0
     totalUniqueWords = 0
-    let words = []
-
-
     isLetterFilter = letter.value > 0
     isEndingFilter = ending.value.length > 0
     isSearchFilter = search.value.length > 0
+    let words = []
 
     switch (trigger) {
         case
@@ -58,20 +54,26 @@ function counterTriger(e, trigger, value) {
         'search':
             words = searchFilter(wordsArray, value)
             break
-        case
+/*        case
         'lett':
             words = letterFilter(wordsArray, value)
             break
         case
         'end':
             words = endingFilter(wordsArray, value)
-            break
+            break*/
         case
         'filt':
             words = wordsArray
-            if (isLetterFilter) words = letterFilter( words , value)
-            if (isEndingFilter) words = endingFilter( words, value)
-            debugger
+            
+            if (isLetterFilter) {
+                value = letter.value
+                words = letterFilter( words , value)
+            }
+            if (isEndingFilter) {
+                value = ending.value
+                words = endingFilter( words, value)
+            }
             break
     }
 
@@ -92,7 +94,8 @@ function counterTriger(e, trigger, value) {
             totalUniqueWords++
             totalWords = totalWords + amount
         })
-    } else {
+    }
+    else {
         display.insertAdjacentHTML('beforeend', `
              <div class="not_found">
                 <p>Not Found</p>
@@ -108,6 +111,8 @@ function counterTriger(e, trigger, value) {
 
 }
 
+/*                                                      Counter                                                       */
+
 function wordsCounter(text) {
 
     text = text.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()–«»?—]/g, "")
@@ -120,8 +125,19 @@ function wordsCounter(text) {
         }
         return acc
     }, {})
+
     return wordsArray = Object.entries(wordsObj).sort((a, b) => b[1] - a[1])
 }
+function loadFile(file) {
+    let reader = new FileReader()
+    reader.addEventListener('load', e => {
+        let result = e.target.result
+        textarea.value = result
+    })
+    return reader.readAsText(file)
+}
+
+/*                                                      Filters                                                       */
 
 function searchFilter(arr, value) {
 
@@ -141,7 +157,6 @@ function searchFilter(arr, value) {
 
     return value.length < 1 ? wordsArray : filterArr
 }
-
 function letterFilter(arr, value) {
     return arr.filter(el =>
         letterToggle.checked
@@ -149,7 +164,6 @@ function letterFilter(arr, value) {
             : el[0].length > value
     )
 }
-
 function endingFilter(arr, value) {
     return arr.filter(el => {
         let word = el[0]
@@ -159,14 +173,7 @@ function endingFilter(arr, value) {
     })
 }
 
-function loadFile(file) {
-    let reader = new FileReader()
-    reader.addEventListener('load', e => {
-        let result = e.target.result
-        textarea.value = result
-    })
-    return reader.readAsText(file)
-}
+/*                                                      Scroll                                                        */
 
 function scorll(el) {
 
@@ -178,7 +185,6 @@ function scorll(el) {
     })
 
 }
-
 function windowScroll(e) {
 
     let windowBottom = window.pageYOffset + window.innerHeight
