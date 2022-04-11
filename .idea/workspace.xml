@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6717b0da-3c57-4a3c-abcf-9a20c9e7fb3b" name="Default Changelist" comment="comments">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="6717b0da-3c57-4a3c-abcf-9a20c9e7fb3b" name="Default Changelist" comment="font size">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <workItem from="1649508279824" duration="9456000" />
       <workItem from="1649549329569" duration="1202000" />
       <workItem from="1649595971158" duration="2373000" />
-      <workItem from="1649619788624" duration="9680000" />
+      <workItem from="1649619788624" duration="9993000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1648824547301</created>
@@ -124,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649634380739</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="font size">
+      <created>1649636558650</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649636558650</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,17 +154,18 @@
     <MESSAGE value="filter" />
     <MESSAGE value="final" />
     <MESSAGE value="comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="comments" />
+    <MESSAGE value="font size" />
+    <option name="LAST_COMMIT_MESSAGE" value="font size" />
   </component>
   <component name="WindowStateProjectService">
     <state x="687" y="215" key="FileChooserDialogImpl" timestamp="1648824482078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1648824482078" />
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1649630814073">
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1649636562147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1649630814073" />
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1649636562147" />
     <state x="714" y="405" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1648824594795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
