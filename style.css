@@ -25,7 +25,7 @@ body {
     cursor:pointer;
 }
 ::-webkit-scrollbar-thumb{
-    background: var(--color4);
+    background: var(--color2);
     cursor: pointer;
     transition: var(--transitionColor);
 }
@@ -122,12 +122,12 @@ button{
     cursor: pointer;
     transition: var(--transitionColor);
     margin: 0 30px 0 0;
+    font-size: 16px;
 }
 button:hover{
     background: var(--color2);
     transition: var(--transitionColor);
     color: var(--color1);
-
 }
 button:active{
     background: var(--color5);
@@ -177,9 +177,11 @@ button:active{
     color: var(--color2);
     margin: 10px 0;
     width: calc(100% - 5px);
+    font-size: 16px;
 }
 .option_input::placeholder{
     color: var(--color2);
+    font-size: 16px;
 }
 .option_input:focus{
     outline: 0;
@@ -197,10 +199,8 @@ button:active{
     color: var(--color1);
 }
 .letter{
-
 }
 .ending{
-
 }
 
 /*                                                 ERROR                                                              */
@@ -219,17 +219,17 @@ button:active{
 
 .checkbox-blue {
     display: inline-block;
-    height: 28px;
-    line-height: 28px;
+    height: 20px;
+    line-height: 20px;
     margin-right: 10px;
     position: relative;
     vertical-align: middle;
-    font-size: 14px;
+    font-size: 16px;
     user-select: none;
 }
 .checkbox-blue .checkbox-blue-switch {
     display: inline-block;
-    height: 28px;
+    height: 20px;
     width: 90px;
     box-sizing: border-box;
     position: relative;
@@ -250,7 +250,7 @@ button:active{
     text-align: center;
     color: var(--color1);
     font-size: 16px;
-    line-height: 28px;
+    line-height: 18px;
 }
 .checkbox-blue .checkbox-blue-switch:after {
     content: attr(data-label-off);
@@ -265,7 +265,7 @@ button:active{
     text-transform: uppercase;
     text-align: center;
     background: var(--color1);
-    line-height: 26px;
+    line-height: 18px;
     font-size: 16px;
     color: var(--color4);
     transition: transform 0.3s cubic-bezier(0, 1, 0.5, 1);
