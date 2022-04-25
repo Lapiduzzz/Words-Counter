@@ -1,3 +1,4 @@
+let body = document.querySelector('body')
 let textarea = document.querySelector('.textarea')
 let calculate = document.querySelector('.calculate')
 let reset = document.querySelector('.reset')
@@ -114,9 +115,13 @@ function counterTriger(e, trigger, value) {
 
     // render statistics of words
     display.insertAdjacentHTML('afterbegin', `
-        <p class="total">Total words : ${totalWords}</p>
-        <p class="total">Total unique words : ${totalUniqueWords}</p>
+        <div class="total_wrapper">
+            <p class="total">Total words : ${totalWords}</p>
+            <p class="total">Total unique words : ${totalUniqueWords}</p>
+        </div>
     `)
+
+    body.style.overflowY = 'auto'
 
     scorll('.display')
 
