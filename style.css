@@ -379,7 +379,7 @@ button:active{
     }
     /*                                                 FORM                                                               */
     .textarea {
-        height: 65vh;
+        height: 60vh;
         font-size: 12px;
         padding: 30px;
     }
@@ -413,7 +413,7 @@ button:active{
     /*                                                 DISPLAY                                                            */
     .display {
         width: 100%;
-        margin: 5vh auto;
+        margin: 5vh auto 30vh auto;
     }
     .display p {
         font-size: 30px;
