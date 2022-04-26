@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6717b0da-3c57-4a3c-abcf-9a20c9e7fb3b" name="Default Changelist" comment="add display, mobile" />
+    <list default="true" id="6717b0da-3c57-4a3c-abcf-9a20c9e7fb3b" name="Default Changelist" comment="add display, mobile ++">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +96,7 @@
       <workItem from="1650849644350" duration="2599000" />
       <workItem from="1650889522302" duration="11835000" />
       <workItem from="1650938455131" duration="1455000" />
-      <workItem from="1650979362647" duration="10963000" />
+      <workItem from="1650979362647" duration="12090000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1648824547301</created>
@@ -165,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651010756701</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add display, mobile ++">
+      <created>1651011198485</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1651011198485</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,17 +202,18 @@
     <MESSAGE value="font size" />
     <MESSAGE value="redesign" />
     <MESSAGE value="add display, mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="add display, mobile" />
+    <MESSAGE value="add display, mobile ++" />
+    <option name="LAST_COMMIT_MESSAGE" value="add display, mobile ++" />
   </component>
   <component name="WindowStateProjectService">
     <state x="687" y="215" key="FileChooserDialogImpl" timestamp="1649684988630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1649684988630" />
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1651010765249">
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1651011203652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1651010765249" />
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1651011203652" />
     <state x="714" y="405" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1648824594795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -217,7 +228,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/script.js</url>
-          <line>232</line>
+          <line>237</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

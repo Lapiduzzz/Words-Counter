@@ -10,9 +10,22 @@ let ending = document.querySelector('.ending')
 let option = document.querySelector('.options')
 let letterToggle = document.querySelector('.letter_toggle')
 let endingToggle = document.querySelector('.ending_toggle')
+let input = document.querySelectorAll('input')
+console.log(input)
 
+input.forEach(el =>{
+    el.addEventListener("focus", e => {
+
+
+
+    })
+})
 window.addEventListener('scroll', e => windowScroll(e))
 textarea.addEventListener('load', e => textarea.value = e.target.value)
+textarea.addEventListener('focus', e => {
+    window.scrollTo(0, 0)
+    document.body.scrollTop = 0
+})
 load.addEventListener('change', e => loadFile(e.target.files[0]))
 calculate.addEventListener('click', e => counterTriger(e, 'calc'))
 reset.addEventListener('click', e => {
