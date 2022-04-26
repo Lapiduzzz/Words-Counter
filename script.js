@@ -13,10 +13,6 @@ let endingToggle = document.querySelector('.ending_toggle')
 
 window.addEventListener('scroll', e => windowScroll(e))
 textarea.addEventListener('load', e => textarea.value = e.target.value)
-textarea.addEventListener('focus', e => {
-    window.scrollTo(0, 0)
-    document.body.scrollTop = 0
-})
 load.addEventListener('change', e => loadFile(e.target.files[0]))
 calculate.addEventListener('click', e => counterTriger(e, 'calc'))
 reset.addEventListener('click', e => {
